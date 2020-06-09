@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "name": "Bunnie",
+      "image": "./assets/cardImages/bunnie.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Diana",
+      "image": "./assets/cardImages/diana.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Erik",
+      "image": "./assets/cardImages/erik.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Fauna",
+      "image": "./assets/cardImages/fauna.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Gladys",
+      "image": "./assets/cardImages/gladys.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Goldie",
+      "image": "./assets/cardImages/goldie.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Kid Cat",
+      "image": "./assets/cardImages/kid-cat.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Marina",
+      "image": "./assets/cardImages/marina.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Marshal",
+      "image": "./assets/cardImages/marshal.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Paula",
+      "image": "./assets/cardImages/paula.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Sprinkle",
+      "image": "./assets/cardImages/sprinkle.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Wolfgang",
+      "image": "./assets/cardImages/wolfgang.jpg"
+    }
+  ]
+  
