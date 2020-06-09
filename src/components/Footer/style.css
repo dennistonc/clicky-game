@@ -1,0 +1,16 @@
+.footer-margin {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    background-color: #b5e3f2;
+  }
+
+h4 {
+  font-family: 'Patua One';
+  color: #ffffff;
+}
+
+p {
+    font-size: 12px;
+}

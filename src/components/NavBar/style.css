@@ -1,0 +1,28 @@
+.navbar {
+    background-color: #b5e3f2;
+}
+
+h3 {
+    font-family: 'Patua One';
+    color: #ffffff;
+}
+
+h3:hover {
+    color: #f7f7f7;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.nav-sentence {
+    font-family: 'Patua One';
+    color: #ffffff;
+    text-align: center;
+}
+
+.score {
+    font-family: 'Patua One';
+    color: #ffffff;
+    text-align: right;
+}

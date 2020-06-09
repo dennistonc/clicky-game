@@ -3,16 +3,16 @@ import "./style.css";
 
 function NavBar(props) {
   return(
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a classname="navbar-brand" href="/">Animal Crossing Clicky Game!</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <nav className="navbar navbar-expand-lg navbar-light">
+    <a classname="navbar-brand col-sm" href="/"><h3>Animal Crossing Clicky Game!</h3></a>
+    
+    <span className="navbar-text nav-sentence col-md">{props.sentence}</span>
+    <span className="navbar-text score col-sm">Score: {props.score} | Top Score: {props.topScore}</span>
 
-    <nav class="navbar navbar-light bg-light">
-      <span class="navbar-text nav-sentence">{props.sentence}</span>
-      <span class="navbar-text score">Score: {props.score} | Top Score: {props.topScore}</span>
-    </nav>
+    {/* <nav className="navbar navbar-light bg-light">
+      <span className="navbar-text nav-sentence">{props.sentence}</span>
+      <span className="navbar-text score">Score: {props.score} | Top Score: {props.topScore}</span>
+    </nav> */}
   </nav>);
 }
 

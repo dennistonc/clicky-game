@@ -3,11 +3,12 @@ import "./style.css";
 
 function Footer() {
   return (
-  <div class="container">
-    <div class="row">
-      <h1 className="title">Animal Crossing Clicky Game!</h1>
-    </div>
-  </div>);
+    <div className="footer-margin">
+    <footer className="card-footer">
+    <h4 className="title">Animal Crossing Clicky Game!</h4>
+    <p>Powered by React! <span role="img" aria-label="react">⚛️</span></p>
+    </footer>
+    </div>);
 }
 
 export default Footer;

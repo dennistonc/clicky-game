@@ -19,7 +19,7 @@ class App extends Component {
     // Uses this.state.characters for characters with equal ids and shuffles
     let villagerID = this.state.villagerID
     if (villagerID.includes(id)) {
-      this.setState({ sentence: "You guessed incorrectly!", score: 0, villagerID: [] });
+      this.setState({ sentence: "You guessed incorrectly! Try again!", score: 0, villagerID: [] });
       return;
     } else {
       villagerID.push(id)
@@ -30,7 +30,7 @@ class App extends Component {
       if (villagerID.includes(id) && topScore === score) {
         this.setState({ topScore: topScore + 1, score: score + 1 })
       }
-      if (score === 12) {
+      if (topScore === 12) {
         this.setState({ sentence: "You win!", villagerID: [] });
         console.log("Winner! 🎊");
         return;
